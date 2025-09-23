@@ -1,0 +1,34 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+
+# Secrets / env
+.env
+*.pem
+*.key
+*.crt
+secrets.txt
+
+# Burp / proxy / tooling
+*.burp
+*.burpstate
+burp-reports/
+burp-projects/
+
+# Large media
+*.mp4
+*.mov
+*.zip
+
+# Dependencies / build
+node_modules/
+dist/
+_site/
+
+# Misc
+coverage/
