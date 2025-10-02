@@ -10,3 +10,7 @@ Method:
 
 Example:
   https://insecure-website.com/loadImage?filename=../../../etc/passwd
+
+**Lab: path traversal, simple case**
+1. Load website and click on any GET request loading an image
+2. Replace the filename with ../../../etc/passwd
